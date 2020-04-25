@@ -7,27 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84329C95244C7E62009609DB /* MainTabbar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84329C94244C7E62009609DB /* MainTabbar.storyboard */; };
-		84329C98244C7EC1009609DB /* MyTabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84329C97244C7EC1009609DB /* MyTabbarView.swift */; };
-		84329C9A244C7F46009609DB /* MyTabbarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84329C99244C7F46009609DB /* MyTabbarView.xib */; };
+		673BC4702452F606007DF604 /* HomeScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 673BC46F2452F606007DF604 /* HomeScreen.storyboard */; };
+		673BC4722452F848007DF604 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673BC4712452F848007DF604 /* HomeViewController.swift */; };
+		673BC47524530152007DF604 /* Intercom.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 673BC47424530152007DF604 /* Intercom.storyboard */; };
+		673BC477245305EF007DF604 /* IntercomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673BC476245305EF007DF604 /* IntercomViewController.swift */; };
+		673BC47A24530883007DF604 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 673BC47924530883007DF604 /* Settings.storyboard */; };
+		673BC47C24530C9B007DF604 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673BC47B24530C9B007DF604 /* SettingsViewController.swift */; };
+		673BC47E24530F11007DF604 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673BC47D24530F11007DF604 /* NavigationController.swift */; };
+		673BC481245313D3007DF604 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 673BC480245313D3007DF604 /* Dashboard.storyboard */; };
+		673BC483245316A9007DF604 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673BC482245316A9007DF604 /* DashboardViewController.swift */; };
+		67E822F1244C89CB00551167 /* TabbarItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67E822F0244C89CB00551167 /* TabbarItem.xib */; };
+		67E822F4244CA75600551167 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E822F3244CA75600551167 /* ViewController.swift */; };
+		67E822F6244CA77500551167 /* TabController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67E822F5244CA77500551167 /* TabController.storyboard */; };
 		84CC31D92439AB7300DC6D18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CC31D82439AB7300DC6D18 /* AppDelegate.swift */; };
-		84CC31DD2439AB7300DC6D18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CC31DC2439AB7300DC6D18 /* ViewController.swift */; };
+		84CC31DD2439AB7300DC6D18 /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CC31DC2439AB7300DC6D18 /* TabbarController.swift */; };
 		84CC31E02439AB7300DC6D18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CC31DE2439AB7300DC6D18 /* Main.storyboard */; };
 		84CC31E22439AB7400DC6D18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84CC31E12439AB7400DC6D18 /* Assets.xcassets */; };
-		84CC31F22439C15300DC6D18 /* GuardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CC31F12439C15300DC6D18 /* GuardButton.swift */; };
+		84CC31F22439C15300DC6D18 /* TabbarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CC31F12439C15300DC6D18 /* TabbarItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		84329C94244C7E62009609DB /* MainTabbar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainTabbar.storyboard; sourceTree = "<group>"; };
-		84329C97244C7EC1009609DB /* MyTabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabbarView.swift; sourceTree = "<group>"; };
-		84329C99244C7F46009609DB /* MyTabbarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTabbarView.xib; sourceTree = "<group>"; };
+		673BC46F2452F606007DF604 /* HomeScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeScreen.storyboard; sourceTree = "<group>"; };
+		673BC4712452F848007DF604 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		673BC47424530152007DF604 /* Intercom.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Intercom.storyboard; sourceTree = "<group>"; };
+		673BC476245305EF007DF604 /* IntercomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntercomViewController.swift; sourceTree = "<group>"; };
+		673BC47924530883007DF604 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		673BC47B24530C9B007DF604 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		673BC47D24530F11007DF604 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		673BC480245313D3007DF604 /* Dashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
+		673BC482245316A9007DF604 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		67E822F0244C89CB00551167 /* TabbarItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabbarItem.xib; sourceTree = "<group>"; };
+		67E822F3244CA75600551167 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67E822F5244CA77500551167 /* TabController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabController.storyboard; sourceTree = "<group>"; };
 		84CC31D52439AB7300DC6D18 /* MyTabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CC31D82439AB7300DC6D18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84CC31DC2439AB7300DC6D18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84CC31DC2439AB7300DC6D18 /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
 		84CC31DF2439AB7300DC6D18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84CC31E12439AB7400DC6D18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84CC31E62439AB7400DC6D18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84CC31F12439C15300DC6D18 /* GuardButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuardButton.swift; sourceTree = "<group>"; };
+		84CC31F12439C15300DC6D18 /* TabbarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,13 +59,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		84329C96244C7EB3009609DB /* Tabbar */ = {
+		673BC46E2452F5EE007DF604 /* HomeViewController */ = {
 			isa = PBXGroup;
 			children = (
-				84329C97244C7EC1009609DB /* MyTabbarView.swift */,
-				84329C99244C7F46009609DB /* MyTabbarView.xib */,
+				673BC46F2452F606007DF604 /* HomeScreen.storyboard */,
+				673BC4712452F848007DF604 /* HomeViewController.swift */,
 			);
-			path = Tabbar;
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		673BC473245300FA007DF604 /* Intercom */ = {
+			isa = PBXGroup;
+			children = (
+				673BC47424530152007DF604 /* Intercom.storyboard */,
+				673BC476245305EF007DF604 /* IntercomViewController.swift */,
+			);
+			path = Intercom;
+			sourceTree = "<group>";
+		};
+		673BC47824530876007DF604 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				673BC47924530883007DF604 /* Settings.storyboard */,
+				673BC47B24530C9B007DF604 /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		673BC47F245313C4007DF604 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				673BC480245313D3007DF604 /* Dashboard.storyboard */,
+				673BC482245316A9007DF604 /* DashboardViewController.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		67E822F2244CA74300551167 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				67E822F3244CA75600551167 /* ViewController.swift */,
+				67E822F5244CA77500551167 /* TabController.storyboard */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		84CC31CC2439AB7300DC6D18 = {
@@ -69,24 +123,29 @@
 		84CC31D72439AB7300DC6D18 /* MyTabbar */ = {
 			isa = PBXGroup;
 			children = (
-				84329C96244C7EB3009609DB /* Tabbar */,
-				84CC31F02439C13C00DC6D18 /* GuardButton */,
+				673BC47F245313C4007DF604 /* Dashboard */,
+				673BC47824530876007DF604 /* Settings */,
+				673BC473245300FA007DF604 /* Intercom */,
+				673BC46E2452F5EE007DF604 /* HomeViewController */,
+				67E822F2244CA74300551167 /* ViewController */,
+				84CC31F02439C13C00DC6D18 /* TabbarItem */,
 				84CC31D82439AB7300DC6D18 /* AppDelegate.swift */,
-				84CC31DC2439AB7300DC6D18 /* ViewController.swift */,
+				84CC31DC2439AB7300DC6D18 /* TabbarController.swift */,
+				673BC47D24530F11007DF604 /* NavigationController.swift */,
 				84CC31DE2439AB7300DC6D18 /* Main.storyboard */,
-				84329C94244C7E62009609DB /* MainTabbar.storyboard */,
 				84CC31E12439AB7400DC6D18 /* Assets.xcassets */,
 				84CC31E62439AB7400DC6D18 /* Info.plist */,
 			);
 			path = MyTabbar;
 			sourceTree = "<group>";
 		};
-		84CC31F02439C13C00DC6D18 /* GuardButton */ = {
+		84CC31F02439C13C00DC6D18 /* TabbarItem */ = {
 			isa = PBXGroup;
 			children = (
-				84CC31F12439C15300DC6D18 /* GuardButton.swift */,
+				84CC31F12439C15300DC6D18 /* TabbarItem.swift */,
+				67E822F0244C89CB00551167 /* TabbarItem.xib */,
 			);
-			path = GuardButton;
+			path = TabbarItem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,10 +206,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84329C95244C7E62009609DB /* MainTabbar.storyboard in Resources */,
+				673BC4702452F606007DF604 /* HomeScreen.storyboard in Resources */,
+				673BC47524530152007DF604 /* Intercom.storyboard in Resources */,
 				84CC31E22439AB7400DC6D18 /* Assets.xcassets in Resources */,
-				84329C9A244C7F46009609DB /* MyTabbarView.xib in Resources */,
+				673BC481245313D3007DF604 /* Dashboard.storyboard in Resources */,
+				67E822F1244C89CB00551167 /* TabbarItem.xib in Resources */,
+				67E822F6244CA77500551167 /* TabController.storyboard in Resources */,
 				84CC31E02439AB7300DC6D18 /* Main.storyboard in Resources */,
+				673BC47A24530883007DF604 /* Settings.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,9 +224,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84CC31F22439C15300DC6D18 /* GuardButton.swift in Sources */,
-				84CC31DD2439AB7300DC6D18 /* ViewController.swift in Sources */,
-				84329C98244C7EC1009609DB /* MyTabbarView.swift in Sources */,
+				673BC4722452F848007DF604 /* HomeViewController.swift in Sources */,
+				673BC483245316A9007DF604 /* DashboardViewController.swift in Sources */,
+				673BC47E24530F11007DF604 /* NavigationController.swift in Sources */,
+				84CC31F22439C15300DC6D18 /* TabbarItem.swift in Sources */,
+				673BC47C24530C9B007DF604 /* SettingsViewController.swift in Sources */,
+				84CC31DD2439AB7300DC6D18 /* TabbarController.swift in Sources */,
+				673BC477245305EF007DF604 /* IntercomViewController.swift in Sources */,
+				67E822F4244CA75600551167 /* ViewController.swift in Sources */,
 				84CC31D92439AB7300DC6D18 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

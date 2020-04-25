@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Dashboard View Controller-->
+        <scene sceneID="CTX-HP-DVp">
+            <objects>
+                <tableViewController storyboardIdentifier="DashboardViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vxk-D0-TP8" customClass="DashboardViewController" customModule="MyTabbar" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="XXT-56-XNi">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.078431372550000003" green="0.078431372550000003" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <sections>
+                            <tableViewSection id="8ab-g8-T3e">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="300" id="ZMx-6f-DYH">
+                                        <rect key="frame" x="20" y="18" width="374" height="300"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZMx-6f-DYH" id="wkq-Ub-6zr">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="300"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="8tZ-DC-UyB">
+                                                    <rect key="frame" x="10" y="17.5" width="354" height="75"/>
+                                                </stackView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="sMD-aa-s2i">
+                                                    <rect key="frame" x="10" y="112.5" width="354" height="75"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="75" id="QGc-5i-ioQ"/>
+                                                    </constraints>
+                                                </stackView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="8b2-de-ROt">
+                                                    <rect key="frame" x="10" y="201.5" width="354" height="75"/>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="sMD-aa-s2i" secondAttribute="trailing" constant="10" id="3YE-Yp-8k8"/>
+                                                <constraint firstItem="8tZ-DC-UyB" firstAttribute="leading" secondItem="wkq-Ub-6zr" secondAttribute="leading" constant="10" id="GoB-1J-ojQ"/>
+                                                <constraint firstItem="sMD-aa-s2i" firstAttribute="leading" secondItem="wkq-Ub-6zr" secondAttribute="leading" constant="10" id="HPo-aK-Meg"/>
+                                                <constraint firstAttribute="trailing" secondItem="8tZ-DC-UyB" secondAttribute="trailing" constant="10" id="Hhy-WE-S9q"/>
+                                                <constraint firstItem="8b2-de-ROt" firstAttribute="leading" secondItem="wkq-Ub-6zr" secondAttribute="leading" constant="10" id="W9g-1i-aKe"/>
+                                                <constraint firstItem="8b2-de-ROt" firstAttribute="top" secondItem="sMD-aa-s2i" secondAttribute="bottom" constant="14" id="WgV-u5-CPs"/>
+                                                <constraint firstItem="sMD-aa-s2i" firstAttribute="top" secondItem="8tZ-DC-UyB" secondAttribute="bottom" constant="20" id="cJC-PD-Zso"/>
+                                                <constraint firstItem="8tZ-DC-UyB" firstAttribute="height" secondItem="sMD-aa-s2i" secondAttribute="height" id="hIj-W7-Z61"/>
+                                                <constraint firstItem="8b2-de-ROt" firstAttribute="height" secondItem="sMD-aa-s2i" secondAttribute="height" id="rVU-b4-qCr"/>
+                                                <constraint firstAttribute="trailing" secondItem="8b2-de-ROt" secondAttribute="trailing" constant="10" id="xgz-aH-zMK"/>
+                                                <constraint firstItem="sMD-aa-s2i" firstAttribute="centerY" secondItem="wkq-Ub-6zr" secondAttribute="centerY" id="zAX-AY-QtJ"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.20627116049999999" green="0.20627116049999999" blue="0.20627116049999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Energy" id="gb5-dH-2lv">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="500" id="1JA-V3-mxx">
+                                        <rect key="frame" x="20" y="374" width="374" height="500"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1JA-V3-mxx" id="u2Q-68-Siz">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="500"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="vQZ-hl-cG9">
+                                                    <rect key="frame" x="10" y="11" width="344" height="32"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <segments>
+                                                        <segment title="First"/>
+                                                        <segment title="Second"/>
+                                                        <segment title="3 segment"/>
+                                                        <segment title="4 segment"/>
+                                                        <segment title="5 segment"/>
+                                                    </segments>
+                                                </segmentedControl>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.20627116049999999" green="0.20627116049999999" blue="0.20627116049999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="vxk-D0-TP8" id="hXc-24-Q31"/>
+                            <outlet property="delegate" destination="vxk-D0-TP8" id="qEK-Su-MQo"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZmN-to-GdX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="221.73913043478262" y="-206.25"/>
+        </scene>
+    </scenes>
+</document>
